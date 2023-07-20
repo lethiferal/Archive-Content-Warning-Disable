@@ -3,7 +3,7 @@
   "name": "Archive Content Warning Remover",
   "version": "1.0",
   "description": "Removes Content Warning blur from archive.org",
-  "homepage_url": "https://archive.org/",
+  "homepage_url": "https://github.com/lethiferal/Archive-Content-Warning-Disable",
   "permissions": ["https://archive.org/*"],
   "content_scripts": [
     {
