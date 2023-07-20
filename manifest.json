@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Archive Content Warning Remover",
+  "version": "1.0",
+  "description": "Removes Content Warning blur from archive.org",
+  "homepage_url": "https://archive.org/",
+  "permissions": ["https://archive.org/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://archive.org/*"],
+      "js": ["script.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "128": "icon.png"
+  }
+}
